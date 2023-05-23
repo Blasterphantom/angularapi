@@ -1,7 +1,35 @@
+@font-face {
+    font-family: Yugioh;
+    src: url(../../assets/yu-gi-oh-font-matrix-iiot-bold-betterstudio.com/MatrixIIOT-Bold.ttf);
+}
+
 .navbar{
     justify-content: space-between;
+    background-color: #F8EF76;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
 }
 
 span{
     padding-right: 1rem;
+}
+
+.digivice{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    font-family: Yugioh;
+}
+
+@media screen and (max-width: 500px) {
+    .title{
+        display: none;
+    }
 }
