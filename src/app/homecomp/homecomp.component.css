@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Yugioh;
+    src: url(../../assets/yu-gi-oh-font-matrix-iiot-bold-betterstudio.com/MatrixIIOT-Bold.ttf);
+}
+
+.orange{
+    width: 100%;
+    height: 600px;
+    background-color: #CBAF93;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 7%;
+}
+
+.card{
+    width: 30%;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+
+.searchTxt{
+    font-family: Yugioh;
+}
+
+.inputField{
+    font-family: Yugioh;
+}
