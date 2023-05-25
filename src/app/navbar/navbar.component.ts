@@ -14,12 +14,12 @@ export class NavbarComponent implements OnInit{
       const digimonData = await this.GetDigimonData();
       console.log(digimonData);
     } catch (error) {
-      console.error('Error fetching digimon data:', error);
+      console.error('Error fetching yugioh data:', error);
     }
   }
 
   async GetDigimonData(){
-    let res = await fetch(`/digi-api.com/api/v1/digimon/agumon`);
+    let res = await fetch(`https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Tornado%20Dragon`);
     let data = await res.json();
     let digiData = data;
     console.log(digiData);
